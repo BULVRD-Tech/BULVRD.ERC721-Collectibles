@@ -17,7 +17,9 @@ contract TradeableERC721Token is ERC721Full, Ownable {
 
   address proxyRegistryAddress;
   uint256 private _currentTokenId = 0;
-  uint256 private _maxSupply = 5;
+ 
+ //Tracks metadata uri per token ID
+  mapping(uint256 => string) tokenUris;
 
   constructor(string memory _name, string memory _symbol, address _proxyRegistryAddress) ERC721Full(_name, _symbol) public {
     proxyRegistryAddress = _proxyRegistryAddress;
@@ -28,10 +30,10 @@ contract TradeableERC721Token is ERC721Full, Ownable {
     * @dev Mints bulk amount to address (owner)
     * @param _to address of the future owner of the token
     */
-  function bulkMintTo(uint256 mintAmount, address _to) public onlyOwner {
+  function bulkMintTo(uint256 mintAmount, address _to, string memory _uri) public onlyOwner {
     for (uint256 i = 0; i < mintAmount; i++) {
         uint256 newTokenId = _getNextTokenId();
-        require(newTokenId <= _maxSupply);
+        tokenUris[newTokenId] = _uri;
         _mint(_to, newTokenId);
         _incrementTokenId();
      }
@@ -41,9 +43,9 @@ contract TradeableERC721Token is ERC721Full, Ownable {
     * @dev Mints a token to an address with a tokenURI.
     * @param _to address of the future owner of the token
     */
-  function mintTo(address _to) public onlyOwner {
+  function mintTo(address _to, string memory _uri) public onlyOwner {
     uint256 newTokenId = _getNextTokenId();
-    require(newTokenId <= _maxSupply);
+    tokenUris[newTokenId] = _uri;
     _mint(_to, newTokenId);
     _incrementTokenId();
   }
@@ -67,8 +69,9 @@ contract TradeableERC721Token is ERC721Full, Ownable {
     return "";
   }
 
+//Fetches the token URI based on tokenID
   function tokenURI(uint256 _tokenId) external view returns (string memory) {
-    return baseTokenURI();
+    return tokenUris[_tokenId];
   }
 
   /**
@@ -96,10 +99,10 @@ contract TradeableERC721Token is ERC721Full, Ownable {
  * @title BLVDMap
  * BLVDMap - a contract for my non-fungible BLVDMap.
  */
-contract BLVDMap is TradeableERC721Token {
-  constructor(address _proxyRegistryAddress) TradeableERC721Token("BLVD Map G O L D E N . W O R L D", "BLVDM", _proxyRegistryAddress) public {  }
+contract BlvdCollectible is TradeableERC721Token {
+  constructor(address _proxyRegistryAddress) TradeableERC721Token("BLVD Collectible", "BLVDC", _proxyRegistryAddress) public {  }
 
-  function baseTokenURI() public view returns (string memory) {
-    return "https://raw.githubusercontent.com/BULVRD-Tech/BULVRD.ERC721-Maps/master/giveaways/gold_world/gold_world.json";
-  }
+//   function baseTokenURI() public view returns (string memory) {
+//     return ge;
+//   }
 }
