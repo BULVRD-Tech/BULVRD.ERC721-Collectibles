@@ -1,0 +1,12 @@
+{
+  "name": "BLVD Collectible Beta Tester Reward",
+  "image": "https://raw.githubusercontent.com/BULVRD-Tech/BULVRD.ERC721-Collectibles/master/giveaways/beta_users/veh_beta.png", 
+  "description": "Reward to active active beta testers of the BULVRD Drive apps!", 
+  "attributes": {
+    "rewardLevel": 99,
+    "totalSupply": 500,
+    "season": 0
+  },
+  "external_url": "https://bulvrdapp.com/#app", 
+  "background_color": "FFD700"
+}
