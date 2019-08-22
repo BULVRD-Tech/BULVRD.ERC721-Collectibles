@@ -1,0 +1,12 @@
+{
+  "name": "BLVD Collectible DEV TEST",
+  "image": "https://raw.githubusercontent.com/BULVRD-Tech/BULVRD.ERC721-Collectibles/master/giveaways/dev_test/car.png", 
+  "description": "DEVELOPMENT TESTING MINTING", 
+  "attributes": {
+    "rewardLevel": 0,
+    "totalSupply": 99999999,
+    "season": 0
+  },
+  "external_url": "https://bulvrdapp.com/#app", 
+  "background_color": "101010"
+}
