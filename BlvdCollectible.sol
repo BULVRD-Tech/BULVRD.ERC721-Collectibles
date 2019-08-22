@@ -102,7 +102,4 @@ contract TradeableERC721Token is ERC721Full, Ownable {
 contract BlvdCollectible is TradeableERC721Token {
   constructor(address _proxyRegistryAddress) TradeableERC721Token("BLVD Collectible", "BLVDC", _proxyRegistryAddress) public {  }
 
-//   function baseTokenURI() public view returns (string memory) {
-//     return ge;
-//   }
 }
