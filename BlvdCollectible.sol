@@ -40,6 +40,18 @@ contract TradeableERC721Token is ERC721Full, Ownable {
   }
 
   /**
+    * @dev Mints bulk amount of same token with given meta to array of addresses
+    */
+  function bulkMintArray(address[] memory receivers, string memory _uri) public onlyOwner {
+     for (uint256 i = 0; i < receivers.length; i++) {
+        uint256 newTokenId = _getNextTokenId();
+        tokenUris[newTokenId] = _uri;
+        _mint(receivers[i], newTokenId);
+        _incrementTokenId();
+     }
+  }
+
+  /**
     * @dev Mints a token to an address with a tokenURI.
     * @param _to address of the future owner of the token
     */
