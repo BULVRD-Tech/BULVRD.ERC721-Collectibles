@@ -1,0 +1,12 @@
+{
+  "name": "BLVD Event : Cavalli Rally",
+  "image": "https://raw.githubusercontent.com/BULVRD-Tech/BULVRD.ERC721-Collectibles/master/events/cavalli_mind_the_gap/cavalli_icon.jpg", 
+  "description": "Proof of Participation for the Cavalli Rally event : Mind the Gap", 
+  "attributes": {
+    "rewardLevel": 1,
+    "totalSupply": 50,
+    "season": 0
+  },
+  "external_url": "https://bulvrdapp.com/#app", 
+  "background_color": "141414"
+}
