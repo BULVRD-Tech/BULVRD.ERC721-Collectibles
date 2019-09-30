@@ -1,0 +1,12 @@
+{
+  "name": "BLVD Event : Hampton Roads Fall Cruise",
+  "image": "https://raw.githubusercontent.com/BULVRD-Tech/BULVRD.ERC721-Collectibles/master/events/bulvrd_hr_fall_cruise/hr_fall_cruise.png", 
+  "description": "Proof of Participation for the BULVRD Event : Hampton Roads Fall Cruise", 
+  "attributes": {
+    "rewardLevel": 1,
+    "totalSupply": 75,
+    "season": 0
+  },
+  "external_url": "https://bulvrdapp.com/#app", 
+  "background_color": "242424"
+}
