@@ -1,0 +1,11 @@
+{
+  "name": "BLVD HODLr : October 2019 Reward",
+  "image": "https://raw.githubusercontent.com/BULVRD-Tech/BULVRD.ERC721-Collectibles/master/hodlr/oct_2019/oct_2019.png", 
+  "description": "Collectible reward for BLVD HODLr members", 
+  "attributes": {
+    "year": 2019,
+    "month": "October"
+  },
+  "external_url": "https://bulvrdapp.com/#app", 
+  "background_color": "242424"
+}
