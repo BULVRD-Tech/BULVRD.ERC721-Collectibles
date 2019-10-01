@@ -1,0 +1,11 @@
+{
+  "name": "BLVD U L T R A : October 2019 Reward",
+  "image": "https://raw.githubusercontent.com/BULVRD-Tech/BULVRD.ERC721-Collectibles/master/u-l-t-r-a/oct_2019/oct_2019.png", 
+  "description": "Collectible reward for BULVRD U L T R A members", 
+  "attributes": {
+    "year": 2019,
+    "month": "October"
+  },
+  "external_url": "https://bulvrdapp.com/#app", 
+  "background_color": "242424"
+}
