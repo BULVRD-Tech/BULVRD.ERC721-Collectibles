@@ -1,0 +1,22 @@
+{
+  "name": "BLVD Collectible : Lowpoly : Commercial Truck",
+  "image": "https://raw.githubusercontent.com/BULVRD-Tech/BULVRD.ERC721-Collectibles/master/series/lowpoly/motorcycle/asset.png", 
+  "description": "Commercial truck part of the Lowpoly Series. Show the BULVRD community your daily is a commercial truck! Set as your map icon for other users to see in BULVRD Drive.", 
+  "attributes": [
+    {
+      "trait_type": "series", 
+      "value": "Lowpoly"
+    },
+    {
+      "trait_type": "level", 
+      "value": 2
+    },
+    {
+      "display_type": "number", 
+      "trait_type": "supply", 
+      "value": 25
+    }
+  ],
+  "external_url": "https://bulvrdapp.com/#app", 
+  "background_color": "1f1f1f"
+}
