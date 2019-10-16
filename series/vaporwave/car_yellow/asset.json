@@ -1,0 +1,22 @@
+{
+  "name": "BLVD Collectible : Vaporwave : Yellow Car",
+  "image": "https://raw.githubusercontent.com/BULVRD-Tech/BULVRD.ERC721-Collectibles/master/series/vaporwave/car_yellow/asset.png", 
+  "description": "Yellow car part of the Vaporwave Series. Throw back to the 80s with the collectible. Set as your map icon for other users to see in BULVRD Drive.", 
+  "attributes": [
+    {
+      "trait_type": "series", 
+      "value": "Vaporwave"
+    },
+    {
+      "trait_type": "level", 
+      "value": 5
+    },
+    {
+      "display_type": "number", 
+      "trait_type": "supply", 
+      "value": 10
+    }
+  ],
+  "external_url": "https://bulvrdapp.com/#app", 
+  "background_color": "890063"
+}
