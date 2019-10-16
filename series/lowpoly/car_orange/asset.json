@@ -1,0 +1,22 @@
+{
+  "name": "BLVD Collectible : Lowpoly : Orange Car",
+  "image": "https://raw.githubusercontent.com/BULVRD-Tech/BULVRD.ERC721-Collectibles/master/series/lowpoly/car_orange/asset.png", 
+  "description": "Orange car part of the Lowpoly Series. Set as your map icon for other users to see in BULVRD Drive.", 
+  "attributes": [
+    {
+      "trait_type": "series", 
+      "value": "Lowpoly"
+    },
+    {
+      "trait_type": "level", 
+      "value": 1
+    },
+    {
+      "display_type": "number", 
+      "trait_type": "supply", 
+      "value": 20
+    }
+  ],
+  "external_url": "https://bulvrdapp.com/#app", 
+  "background_color": "1f1f1f"
+}
