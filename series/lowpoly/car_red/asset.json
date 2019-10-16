@@ -1,0 +1,22 @@
+{
+  "name": "BLVD Collectible : Lowpoly : Red Car",
+  "image": "https://raw.githubusercontent.com/BULVRD-Tech/BULVRD.ERC721-Collectibles/master/series/lowpoly/car_red/asset.png", 
+  "description": "Red car part of the Lowpoly Series. Set as your map icon for other users to see in BULVRD Drive.", 
+  "attributes": [
+    {
+      "trait_type": "series", 
+      "value": "Lowpoly"
+    },
+    {
+      "trait_type": "level", 
+      "value": 2
+    },
+    {
+      "display_type": "number", 
+      "trait_type": "supply", 
+      "value": 15
+    }
+  ],
+  "external_url": "https://bulvrdapp.com/#app", 
+  "background_color": "1f1f1f"
+}
