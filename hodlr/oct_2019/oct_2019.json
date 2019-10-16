@@ -2,10 +2,30 @@
   "name": "BLVD HODLr : October 2019 Reward",
   "image": "https://raw.githubusercontent.com/BULVRD-Tech/BULVRD.ERC721-Collectibles/master/hodlr/oct_2019/oct_2019.png", 
   "description": "Collectible reward for BLVD HODLr members", 
-  "attributes": {
-    "year": 2019,
-    "month": "October"
-  },
+  "attributes": [
+    {
+      "trait_type": "series", 
+      "value": "HODLr"
+    },
+    {
+      "trait_type": "level", 
+      "value": 5
+    },
+    {
+      "display_type": "number", 
+      "trait_type": "supply", 
+      "value": 50
+    },
+    {
+      "display_type": "number", 
+      "trait_type": "year", 
+      "value": 2019
+    },
+    {
+      "trait_type": "month", 
+      "value": "October"
+    }
+  ],
   "external_url": "https://bulvrdapp.com/#app", 
   "background_color": "242424"
 }
