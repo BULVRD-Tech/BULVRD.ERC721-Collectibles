@@ -1,0 +1,22 @@
+{
+  "name": "BLVD Collectible : Lowpoly : Horse",
+  "image": "https://raw.githubusercontent.com/BULVRD-Tech/BULVRD.ERC721-Collectibles/master/series/lowpoly/motorcycle/asset.png", 
+  "description": "Horse part of the Lowpoly Series. Throw it back to the 1800's by using a horse! Set as your map icon for other users to see in BULVRD Drive.", 
+  "attributes": [
+    {
+      "trait_type": "series", 
+      "value": "Lowpoly"
+    },
+    {
+      "trait_type": "level", 
+      "value": 5
+    },
+    {
+      "display_type": "number", 
+      "trait_type": "supply", 
+      "value": 5
+    }
+  ],
+  "external_url": "https://bulvrdapp.com/#app", 
+  "background_color": "1f1f1f"
+}
