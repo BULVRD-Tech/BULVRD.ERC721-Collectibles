@@ -1,0 +1,22 @@
+{
+  "name": "BLVD Collectible : Headlights : Future i",
+  "image": "https://raw.githubusercontent.com/BULVRD-Tech/BULVRD.ERC721-Collectibles/master/series/headlights/i8/asset.png", 
+  "description": "Future i part of the Headlights Series. Show the community you're an i driver. Set as your map icon for other users to see in BULVRD Drive.", 
+  "attributes": [
+    {
+      "trait_type": "series", 
+      "value": "Headlights"
+    },
+    {
+      "trait_type": "level", 
+      "value": 5
+    },
+    {
+      "display_type": "number", 
+      "trait_type": "supply", 
+      "value": 5
+    }
+  ],
+  "external_url": "https://bulvrdapp.com/#app", 
+  "background_color": "890063"
+}
