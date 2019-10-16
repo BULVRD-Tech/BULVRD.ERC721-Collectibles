@@ -1,0 +1,22 @@
+{
+  "name": "BLVD Collectible : Headlights : NSX Gen 2",
+  "image": "https://raw.githubusercontent.com/BULVRD-Tech/BULVRD.ERC721-Collectibles/master/series/headlights/nsx_two/asset.png", 
+  "description": "NSX Gen 2 part of the Headlights Series. Show the community you're a NSX driver. Set as your map icon for other users to see in BULVRD Drive.", 
+  "attributes": [
+    {
+      "trait_type": "series", 
+      "value": "Headlights"
+    },
+    {
+      "trait_type": "level", 
+      "value": 5
+    },
+    {
+      "display_type": "number", 
+      "trait_type": "supply", 
+      "value": 5
+    }
+  ],
+  "external_url": "https://bulvrdapp.com/#app", 
+  "background_color": "890063"
+}
