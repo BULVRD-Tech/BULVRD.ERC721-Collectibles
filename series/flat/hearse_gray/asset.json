@@ -1,0 +1,22 @@
+{
+  "name": "BLVD Collectible : Flat : Gray Hearse",
+  "image": "https://raw.githubusercontent.com/BULVRD-Tech/BULVRD.ERC721-Collectibles/master/series/flat/hearse_gray/asset.png", 
+  "description": "Gray Hearse part of the flat series. Part of giveaway to a random Halloween 2019 collectible map style owner. Set as your map icon for other users to see in BULVRD Drive.", 
+  "attributes": [
+    {
+      "trait_type": "series", 
+      "value": "Flat"
+    },
+    {
+      "trait_type": "level", 
+      "value": 5
+    },
+    {
+      "display_type": "number", 
+      "trait_type": "supply", 
+      "value": 1
+    }
+  ],
+  "external_url": "https://bulvrdapp.com/#app", 
+  "background_color": "1f1f1f"
+}
