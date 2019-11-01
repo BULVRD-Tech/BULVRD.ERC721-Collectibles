@@ -1,0 +1,22 @@
+{
+  "name": "BLVD Collectible : Flat : Green F1",
+  "image": "https://raw.githubusercontent.com/BULVRD-Tech/BULVRD.ERC721-Collectibles/master/series/flat/f1_green/asset.png", 
+  "description": "Green F1 car part of the Flat Series, rewarded for picking the correct winner of the 2019 F1 United States Grand Prix! Set as your map icon for other users to see in BULVRD Drive.", 
+  "attributes": [
+    {
+      "trait_type": "series", 
+      "value": "Flat"
+    },
+    {
+      "trait_type": "level", 
+      "value": 5
+    },
+    {
+      "display_type": "number", 
+      "trait_type": "supply", 
+      "value": 1
+    }
+  ],
+  "external_url": "https://bulvrdapp.com/#app", 
+  "background_color": "890063"
+}
