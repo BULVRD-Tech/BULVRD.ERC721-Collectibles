@@ -1,7 +1,7 @@
 {
   "name": "BLVD Collectible : Vaporwave : Red F1",
   "image": "https://raw.githubusercontent.com/BULVRD-Tech/BULVRD.ERC721-Collectibles/master/series/vaporwave/f1_red/asset.png", 
-  "description": "Red F1 part of the Vaporwave Series, given away ONLY during our billion mile celebration! Throw back to the 80s with the collectible. Set as your map icon for other users to see in BULVRD Drive.", 
+  "description": "Red F1 part of the Vaporwave Series, part of the BULVRD team celebration for the 2019 Formula 1 United States Grand Prix! Throw back to the 80s with the collectible. Set as your map icon for other users to see in BULVRD Drive.", 
   "attributes": [
     {
       "trait_type": "series", 
