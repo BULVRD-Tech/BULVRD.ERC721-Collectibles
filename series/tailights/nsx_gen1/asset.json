@@ -1,0 +1,26 @@
+{
+  "name": "BLVD Collectible : Taillights : NSX Gen 1",
+  "image": "https://raw.githubusercontent.com/BULVRD-Tech/BULVRD.ERC721-Collectibles/master/series/tailights/nsx_gen1/asset.png", 
+  "description": "NSX Gen 1 part of the Taillights Series. Show the community you're a Gen 1 NSX driver. Set as your map icon for other users to see in BULVRD Drive.", 
+  "attributes": [
+    {
+      "trait_type": "series", 
+      "value": "Taillights"
+    },
+    {
+      "trait_type": "name", 
+      "value": "NSX"
+    },
+    {
+      "trait_type": "level", 
+      "value": 5
+    },
+    {
+      "display_type": "number", 
+      "trait_type": "supply", 
+      "value": 5
+    }
+  ],
+  "external_url": "https://bulvrdapp.com/#app", 
+  "background_color": "890063"
+}
