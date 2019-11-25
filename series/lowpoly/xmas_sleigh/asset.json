@@ -1,7 +1,7 @@
 {
-  "name": "BLVD Collectible : Lowpoly : Santa Sleigh 2019",
-  "image": "https://raw.githubusercontent.com/BULVRD-Tech/BULVRD.ERC721-Collectibles/master/series/lowpoly/santa_sleigh/asset.png", 
-  "description": "Santa Sleigh part of the Lowpoly Series to celebrate the holiday season. Set as your map icon for other users to see in BULVRD Drive.", 
+  "name": "BLVD Collectible : Lowpoly : Xmas Sleigh 2019",
+  "image": "https://raw.githubusercontent.com/BULVRD-Tech/BULVRD.ERC721-Collectibles/master/series/lowpoly/xmas_sleigh/asset.png", 
+  "description": "Xmas Sleigh part of the Lowpoly Series to celebrate the holiday season. Set as your map icon for other users to see in BULVRD Drive.", 
   "attributes": [
     {
       "trait_type": "series", 
@@ -9,7 +9,7 @@
     },
     {
       "trait_type": "name", 
-      "value": "Santa Sleigh"
+      "value": "Xmas Sleigh"
     },
     {
       "trait_type": "level", 

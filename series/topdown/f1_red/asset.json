@@ -1,0 +1,30 @@
+{
+  "name": "BLVD Collectible : Topdown : Red F1",
+  "image": "https://raw.githubusercontent.com/BULVRD-Tech/BULVRD.ERC721-Collectibles/master/series/topdown/f1_red/asset.png", 
+  "description": "Red F1 car part of the Topdown series. Set as your map icon for other users to see in BULVRD Drive.", 
+  "attributes": [
+    {
+      "trait_type": "series", 
+      "value": "Topdown"
+    },
+    {
+      "trait_type": "name", 
+      "value": "F1"
+    },
+    {
+      "trait_type": "color", 
+      "value": "Red"
+    },
+    {
+      "trait_type": "level", 
+      "value": 3
+    },
+    {
+      "display_type": "number", 
+      "trait_type": "supply", 
+      "value": 15
+    }
+  ],
+  "external_url": "https://bulvrdapp.com/#app", 
+  "background_color": "546b78"
+}

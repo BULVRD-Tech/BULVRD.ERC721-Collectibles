@@ -8,6 +8,10 @@
       "value": "Taillights"
     },
     {
+      "trait_type": "name", 
+      "value": "R35 Taillights"
+    },
+    {
       "trait_type": "level", 
       "value": 5
     },

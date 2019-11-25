@@ -8,6 +8,10 @@
       "value": "Headlights"
     },
     {
+      "trait_type": "name", 
+      "value": "NSX"
+    },
+    {
       "trait_type": "level", 
       "value": 5
     },

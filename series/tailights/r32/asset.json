@@ -8,6 +8,10 @@
       "value": "Taillights"
     },
     {
+      "trait_type": "name", 
+      "value": "R32"
+    },
+    {
       "trait_type": "level", 
       "value": 5
     },

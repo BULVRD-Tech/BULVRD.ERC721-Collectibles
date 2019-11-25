@@ -8,6 +8,10 @@
       "value": "Vaporwave"
     },
     {
+      "trait_type": "name", 
+      "value": "F1"
+    },
+    {
       "trait_type": "level", 
       "value": 4
     },

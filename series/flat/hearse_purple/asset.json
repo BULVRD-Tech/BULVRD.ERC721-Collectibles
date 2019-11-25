@@ -8,6 +8,10 @@
       "value": "Flat"
     },
     {
+      "trait_type": "name", 
+      "value": "Purple Hearse"
+    },
+    {
       "trait_type": "level", 
       "value": 5
     },

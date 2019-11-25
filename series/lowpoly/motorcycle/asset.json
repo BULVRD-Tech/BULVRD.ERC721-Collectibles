@@ -8,6 +8,10 @@
       "value": "Lowpoly"
     },
     {
+      "trait_type": "name", 
+      "value": "Motorcycle"
+    },
+    {
       "trait_type": "level", 
       "value": 3
     },

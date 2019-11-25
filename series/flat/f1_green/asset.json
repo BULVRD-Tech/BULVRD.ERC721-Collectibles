@@ -8,6 +8,10 @@
       "value": "Flat"
     },
     {
+      "trait_type": "name", 
+      "value": "Green F1"
+    },
+    {
       "trait_type": "level", 
       "value": 5
     },
