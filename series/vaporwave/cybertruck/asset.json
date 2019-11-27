@@ -1,0 +1,26 @@
+{
+  "name": "BLVD Collectible : Vaporwave : CryberTruck",
+  "image": "https://raw.githubusercontent.com/BULVRD-Tech/BULVRD.ERC721-Collectibles/master/series/vaporwave/cybertruck/asset.png", 
+  "description": "Celebrate the CyberTruck BLVD collectible for sale only on Cyber Monday! Set as your map icon for other users to see in BULVRD Drive.", 
+  "attributes": [
+    {
+      "trait_type": "series", 
+      "value": "Vaporwave"
+    },
+    {
+      "trait_type": "name", 
+      "value": "Truck"
+    },
+    {
+      "trait_type": "level", 
+      "value": 5
+    },
+    {
+      "display_type": "number", 
+      "trait_type": "supply", 
+      "value": 6
+    }
+  ],
+  "external_url": "https://bulvrdapp.com/#app", 
+  "background_color": "890063"
+}
